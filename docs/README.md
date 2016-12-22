@@ -4,7 +4,7 @@ This library covers APIs that handles connection between node and IoTIgnite over
 Library covers the following functionalities: Network Service Discovery, TCP/IP server, IotIgnite connnection handler.
 Add this library to your project's app gradle dependencies in Android Studio as ** compile 'com.ardic.android.iot:HwNodeAppTemplates:1.0'**.
 
-![Image of HwNodeAppTemplate](HwNodeAppTemplateLibrarySequence.png)
+![Image of HwNodeAppTemplate](HwNodeAppTemplate Library Sequence.png)
 
 WifiNodeDevice class implements basic functions needed for IotIgnite Wifi connection. By means of this library, you can implement the following handlers:
  - A specific mDNS service enables node to dynamically receive your listening IP address and port (Network Service Discovery Server)
