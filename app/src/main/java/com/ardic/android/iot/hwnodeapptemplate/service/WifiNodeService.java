@@ -46,7 +46,7 @@ public class WifiNodeService extends Service implements ConnectionCallback, Time
         serviceInstance = this;
         igniteTimer = new TimeoutTimer(this);
         igniteBuilder = new IotIgniteManager.Builder().setContext(getApplicationContext())
-                .setConnectionListener(this);
+                .setConnectionListener(this).setLogEnabled(true);
         rebuildIgnite();
 
     }
